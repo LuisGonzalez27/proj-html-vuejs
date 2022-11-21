@@ -1,7 +1,7 @@
 <template>
     <section class="jumbo d-flex justify-content-center">
         <div class="d-flex pro">
-            <p>Award width</p>
+            <p>Award winning</p>
             <h2>Pro Barbers</h2>
             <button class="my-btn">Met Your new barber</button>
         </div>
@@ -31,10 +31,15 @@ export default {
 }
 
 h2 {
-    color: $goldenRod;
+    color: $silver;
+    font-size: 70px;
 }
 
 p {
-    color: $white;
+    color: $colorFont;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
 }
 </style>
