@@ -4,6 +4,7 @@ $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 @import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
     margin: 0;
@@ -12,5 +13,19 @@ $fa-font-path: '../webfonts';
 }
 
 body {
-    background-color: $black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+// style per il button usato nel sito
+.my-btn {
+    border: 2px solid $goldenRod;
+    background-color: transparent;
+    color: $goldenRod;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial;
 }

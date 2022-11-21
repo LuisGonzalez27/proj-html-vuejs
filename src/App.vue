@@ -5,7 +5,6 @@
 <script>
 import AppHeader from './components/appHeader.vue';
 
-
 export default {
   components: { AppHeader }
 }
