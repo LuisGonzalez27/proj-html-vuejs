@@ -29,3 +29,10 @@ body {
     text-transform: uppercase;
     font-family: Arial;
 }
+
+// usato per la centratura
+.my-center {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

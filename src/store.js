@@ -44,4 +44,22 @@ export const store = reactive({
         },
     ],
 
+    reviews: [
+        {
+            name: "John Doe",
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            img: "../../assets/img/avadabarbers-trimcut-gallery6.jpg",
+        },
+        {
+            name: "Pete Jones",
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            img: "../../assets/img/avadabarbers-trimcut-gallery7.jpg",
+        },
+        {
+            name: "Mark Wilson",
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            img: "../../assets/img/avadabarbers-trimcut-gallery3.jpg",
+        },
+    ],
+
 });

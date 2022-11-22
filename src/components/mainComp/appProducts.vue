@@ -4,7 +4,7 @@
             <p class="mb-0 second-title">We have you covered</p>
             <h2>Avada Grooming Products</h2>
             <div class="row text-center justify-content-center m-0 pb-5">
-                <div class="services pt-5" v-for="(item, index) in products" :key="index">
+                <div class="products pt-5" v-for="(item, index) in products" :key="index">
                     <div>
                         <img :src="getImg(item.img)" alt="">
                     </div>
@@ -61,7 +61,7 @@ export default {
     }
 
     .row {
-        .services {
+        .products {
             width: calc(100% / 4);
 
             img {
@@ -81,11 +81,5 @@ export default {
             }
         }
     }
-}
-
-.my-center {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 </style>
