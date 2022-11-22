@@ -34,7 +34,8 @@ export default {
 
 .my-container {
     width: 100%;
-    min-height: 800px;
+    min-height: 700px;
+    // padding-top: 200px;
 
     .second-title {
         font-size: 16px;

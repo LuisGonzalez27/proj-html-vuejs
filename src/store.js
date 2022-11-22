@@ -44,6 +44,14 @@ export const store = reactive({
         },
     ],
 
+    featured: [
+        {
+            name: "John Doe",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            img: "../../assets/img/shaving_butter.png",
+        },
+    ],
+
     reviews: [
         {
             name: "John Doe",

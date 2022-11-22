@@ -1,6 +1,7 @@
 <template>
     <appServices :services="this.store.services" />
     <appProducts :products="this.store.products" />
+    <appFeatured :featured="this.store.featured" />
     <appReviews :reviews="this.store.reviews" />
     <appPosts :posts="this.store.posts" />
 </template>
@@ -9,6 +10,7 @@
 import { store } from "../store";
 import appServices from './mainComp/appServices.vue';
 import appProducts from './mainComp/appProducts.vue';
+import appFeatured from "./mainComp/appFeatured.vue";
 import appReviews from "./mainComp/appReviews.vue";
 import appPosts from "./mainComp/appPosts.vue";
 
@@ -17,6 +19,7 @@ export default {
     components: {
         appServices,
         appProducts,
+        appFeatured,
         appReviews,
         appPosts,
     },
