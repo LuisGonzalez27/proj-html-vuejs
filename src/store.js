@@ -80,4 +80,27 @@ export const store = reactive({
         },
     ],
 
+    footerTop: [
+        {
+            text: "shop aour range now",
+            img: "../../assets/img/avadabarbers_footer_shop_image.png",
+            current: true,
+        },
+        {
+            text: "book your appoint",
+            img: "../../assets/img/avadabarbers_footer_appointment_image.png",
+            current: true,
+        },
+    ],
+
+    footerInfo: [
+        {
+            title: "Avada barbers",
+            street: "123 new york street",
+            location: "New york city",
+            email: "info@yourwebsite.com",
+            cellPhone: "+1(555) 555-1212",
+            follow: "follow us",
+        },
+    ],
 });
