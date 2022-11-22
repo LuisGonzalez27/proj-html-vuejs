@@ -21,4 +21,27 @@ export const store = reactive({
         },
     ],
 
+    products: [
+        {
+            name: "Brush",
+            price: "$15.00",
+            img: "../../assets/img/brush_dark.png",
+        },
+        {
+            name: "Scissors",
+            price: "$85.00",
+            img: "../../assets/img/scissors.png",
+        },
+        {
+            name: "Hot Oil",
+            price: "$15.00",
+            img: "../../assets/img/hot_oil_dark.png",
+        },
+        {
+            name: "Straight Razor",
+            price: "$30.00",
+            img: "../../assets/img/straight_razor_dark.png",
+        },
+    ],
+
 });
