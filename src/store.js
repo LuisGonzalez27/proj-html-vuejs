@@ -47,18 +47,36 @@ export const store = reactive({
     reviews: [
         {
             name: "John Doe",
-            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
             img: "../../assets/img/avadabarbers-trimcut-gallery6.jpg",
         },
         {
             name: "Pete Jones",
-            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
             img: "../../assets/img/avadabarbers-trimcut-gallery7.jpg",
         },
         {
             name: "Mark Wilson",
-            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis dolores molestiae, similique nesciunt reprehenderit.",
             img: "../../assets/img/avadabarbers-trimcut-gallery3.jpg",
+        },
+    ],
+
+    posts: [
+        {
+            title: "Avada barbers now open",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis.",
+            img: "../../assets/img/avadabarbers-second-blog-700x441.jpg",
+        },
+        {
+            title: "Choosing the right barber",
+            text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis.",
+            img: "../../assets/img/avadabarbers-choosing-blog-700x441.jpg",
+        },
+        {
+            title: "Quick service guider",
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, officiis dolore. Eos sed at libero minus! Amet quas tempore reiciendis.",
+            img: "../../assets/img/avadabarbers-ourservice-blog-700x441.jpg",
         },
     ],
 
