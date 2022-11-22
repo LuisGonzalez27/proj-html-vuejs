@@ -103,4 +103,13 @@ export const store = reactive({
             follow: "follow us",
         },
     ],
+
+    footerCopy: [
+        {
+            date: "@Copyright 2012-2020",
+            by: "Avada Theme by Theme Fusion",
+            all: "All Rights Reserved",
+            powered: "Powerd by WordPress",
+        },
+    ],
 });
