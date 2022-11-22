@@ -35,7 +35,7 @@ export default {
 
 .my-container {
     width: 100%;
-    min-height: 800px;
+    min-height: 950px;
     background-color: $colorPosts;
 
     .second-title {

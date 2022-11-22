@@ -41,7 +41,7 @@ export default {
 
 .my-container {
     width: 100%;
-    min-height: 600px;
+    min-height: 650px;
 
     .title {
         p {

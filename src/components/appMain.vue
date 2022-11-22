@@ -1,8 +1,11 @@
 <template>
+    <AppWave class="wave-top" />
     <appServices :services="this.store.services" />
+    <AppWave class="wave-invert" />
     <appProducts :products="this.store.products" />
     <appFeatured :featured="this.store.featured" />
     <appReviews :reviews="this.store.reviews" />
+    <AppWave class="wave-button" />
     <appPosts :posts="this.store.posts" />
 </template>
 
@@ -13,6 +16,7 @@ import appProducts from './mainComp/appProducts.vue';
 import appFeatured from "./mainComp/appFeatured.vue";
 import appReviews from "./mainComp/appReviews.vue";
 import appPosts from "./mainComp/appPosts.vue";
+import AppWave from "./mainComp/appWave.vue";
 
 export default {
     name: "appMain",
@@ -22,6 +26,7 @@ export default {
         appFeatured,
         appReviews,
         appPosts,
+        AppWave,
     },
     data() {
         return {
@@ -32,5 +37,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.wave-top {
+    margin-top: -100px;
+}
 
+.wave-button {
+    margin-bottom: -100px;
+    transform: rotate(180deg);
+}
+
+.wave-invert {
+    filter: invert(1);
+}
 </style>

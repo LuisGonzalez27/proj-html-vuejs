@@ -19,9 +19,9 @@ export default {
 
 .jumbo {
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-image: url(../../assets/img/avadabarbers-about-introbackground.jpg);
-    background-size: 60%;
+    background-size: 80%;
 }
 
 .pro {
