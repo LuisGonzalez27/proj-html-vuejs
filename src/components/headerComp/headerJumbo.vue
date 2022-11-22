@@ -19,15 +19,16 @@ export default {
 
 .jumbo {
     width: 100%;
-    height: 600px;
+    height: 450px;
     background-image: url(../../assets/img/avadabarbers-about-introbackground.jpg);
-    background-size: 80%;
+    background-size: 90%;
 }
 
 .pro {
-    justify-content: center;
+    // justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
 h2 {

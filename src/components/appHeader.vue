@@ -1,10 +1,10 @@
 <template>
     <header>
-        <headerTop />
         <div class="back-img">
-            <section class="my-container d-flex align-items-center justify-content-between">
+            <section class="my-container">
                 <div>
                     <h1>Barber Shop</h1>
+                    <div class="separator"></div>
                     <h5>The Pinnacle of Male Grooming</h5>
                     <button class="my-btn">Learn More</button>
                 </div>
@@ -16,14 +16,11 @@
 </template>
 
 <script>
-import headerTop from './headerComp/headerTop.vue';
 import headerJumbo from './headerComp/headerJumbo.vue';
-
 
 export default {
     name: "appHeader",
     components: {
-        headerTop,
         headerJumbo,
     },
 }
@@ -38,9 +35,11 @@ header {
 }
 
 .my-container {
-    width: 80%;
+    width: 100%;
     padding-top: 80px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back-img {
@@ -52,21 +51,26 @@ header {
     background-size: cover;
     left: 0;
     top: 0;
-    z-index: -2;
 }
 
 .back-logo {
-    max-width: 35%;
-    z-index: -1;
+    max-width: 30%;
 }
 
 h1 {
     color: $white;
-    font-size: 100px;
+    font-size: 85px;
 }
 
 h5 {
     font-family: Arial;
     color: $silver;
+    padding-bottom: 20px;
+}
+
+.separator {
+    border-bottom: 4px solid $colorFont;
+    width: 50%;
+    margin-bottom: 20px;
 }
 </style>
