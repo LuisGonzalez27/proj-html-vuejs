@@ -1,12 +1,12 @@
 <template>
     <AppWave class="wave-top" />
-    <appServices :services="this.store.services" />
+    <appServices :services="this.store.services" id="Services" />
     <AppWave class="wave-invert" />
-    <appProducts :products="this.store.products" />
+    <appProducts :products="this.store.products" id="Shop" />
     <appFeatured :featured="this.store.featured" />
-    <appReviews :reviews="this.store.reviews" />
+    <appReviews :reviews="this.store.reviews" id="About" />
     <AppWave class="wave-button" />
-    <appPosts :posts="this.store.posts" />
+    <appPosts :posts="this.store.posts" id="Blog" />
 </template>
 
 <script>

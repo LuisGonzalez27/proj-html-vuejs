@@ -3,15 +3,14 @@
     <div ref="mySidenav" id="mySidenav" class="sidenav">
       <a @click="closeNav" class="closebtn"><i class="fa-solid fa-xmark"></i></a>
       <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About Us</a>
-      <a href="#">Shop</a>
+      <a href="#Services">Services</a>
+      <a href="#About">About Us</a>
       <a href="#">Our Team</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact Us</a>
+      <a href="#Blog">Blog</a>
+      <a href="#Contact">Contact Us</a>
     </div>
     <div class="menu">
-      <span><i class="fa-solid fa-cart-shopping fa-lg"></i></span>
+      <span><a href="#Shop"><i class="fa-solid fa-cart-shopping fa-lg"></i></a></span>
       <span @click="openNav"><i class="fa-solid fa-bars fa-lg"></i></span>
     </div>
   </div>

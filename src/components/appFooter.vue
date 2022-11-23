@@ -1,5 +1,5 @@
 <template>
-    <footerTop :footerTop="this.store.footerTop" :footerInfo="this.store.footerInfo" />
+    <footerTop :footerTop="this.store.footerTop" :footerInfo="this.store.footerInfo" id="Contact" />
     <footerBottom :footerCopy="this.store.footerCopy" />
 </template>
 
