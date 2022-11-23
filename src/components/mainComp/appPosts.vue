@@ -5,7 +5,9 @@
             <h2>Recent blog posts</h2>
             <div class="row text-center justify-content-center m-0 pb-5">
                 <div class="posts pt-5" v-for="(item, index) in posts" :key="index">
-                    <img :src="getImg(item.img)" alt="">
+                    <div class="img-hover-zoom">
+                        <img :src="getImg(item.img)" alt="">
+                    </div>
                     <h4>{{ item.title }}</h4>
                     <p>{{ item.text }}</p>
                 </div>
@@ -57,13 +59,14 @@ export default {
             width: 20%;
 
             img {
-                width: 100%;
+                transition: transform 2s ease;
             }
 
             h4 {
                 color: $colorFont;
                 padding-top: 20px;
                 text-transform: capitalize;
+                cursor: pointer;
             }
 
             p {
@@ -73,5 +76,14 @@ export default {
             }
         }
     }
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 </style>

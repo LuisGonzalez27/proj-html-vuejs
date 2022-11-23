@@ -35,6 +35,11 @@ img {
     font-family: Arial;
 }
 
+.my-btn:hover {
+    color: $colorHover;
+    border: 2px solid $colorHover;
+}
+
 // usato per la centratura
 .my-center {
     justify-content: center;
