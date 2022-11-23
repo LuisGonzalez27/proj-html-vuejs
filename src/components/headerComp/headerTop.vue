@@ -1,11 +1,7 @@
 <template>
     <section class="nav-top d-flex justify-content-center">
-        <div class="my-container d-flex justify-content-between align-items-center">
+        <div class="my-container d-flex align-items-center">
             <img src="../../assets/img/avadabarbers-stickylogo-x2.png" class="logo">
-            <div class="d-flex menu">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-bars"></i>
-            </div>
         </div>
     </section>
 </template>
@@ -36,10 +32,5 @@ export default {
 
 .my-container {
     width: 60%;
-}
-
-.menu {
-    width: 50px;
-    justify-content: space-between;
 }
 </style>

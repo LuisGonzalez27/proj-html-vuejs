@@ -68,7 +68,7 @@ export default {
 
     .row {
         .my-card {
-            width: 20%;
+            width: 22%;
         }
 
         p {
