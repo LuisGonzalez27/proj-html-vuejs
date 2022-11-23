@@ -1,7 +1,7 @@
 <template>
     <section class="my-container d-flex justify-content-center">
         <div class="d-flex my-center">
-            <div class="row">
+            <div class="row m-0">
                 <div class="reviews" v-for="(item, index) in featured" :key="index">
                     <div class="left">
                         <img :src="getImg(item.img)" alt="">
@@ -11,7 +11,6 @@
                         <h2>Shaving butter</h2>
                         <p>{{ item.text }}</p>
                         <button class="my-btn text-center">Buy now</button>
-
                     </div>
                 </div>
             </div>
@@ -41,7 +40,6 @@ export default {
     width: 100%;
     height: 400px;
     margin-top: -50px;
-    // min-width: 1400px;
 
     .second-title {
         font-size: 16px;
@@ -64,7 +62,7 @@ export default {
     background-image: url(../../assets/img/avadabarbers-cta-background.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 100%;
     border-top: 3px solid $colorFont;
     display: flex;
     justify-content: center;
@@ -78,9 +76,13 @@ export default {
 .right {
     width: 35%;
     background-color: black;
-    height: 400px;
+    height: 100%;
     border-top: 3px solid $colorFont;
-    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 30px;
 
     h2 {
         color: $silver;
